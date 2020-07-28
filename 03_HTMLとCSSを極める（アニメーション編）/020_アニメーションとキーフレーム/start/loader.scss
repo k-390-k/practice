@@ -10,6 +10,8 @@ body {
   height: 100px;
   background-color: $cBlack;
   animation: sk-bouncedelay 1.4s;
+  animation-timing-function: ease;
+  animation-direction: reverse;
 }
 
 @keyframes sk-bouncedelay {

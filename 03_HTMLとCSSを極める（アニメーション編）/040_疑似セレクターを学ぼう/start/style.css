@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+div span {
+  color: olive;
+}
+
+div span:nth-child(2n + 1) {
+  color: purple;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,9 @@
+div {
+    & span {
+        color: olive;
+    }
+
+    & span:nth-child(2n + 1){
+        color: purple;
+    }
+}
